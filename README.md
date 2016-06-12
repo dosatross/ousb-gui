@@ -1,5 +1,4 @@
-# ousb-gui specification
-Graphical user interface for the Open-USB-IO platform
+# Open-OUSB-IO Gui Specification
 
 AUTHOR OF SPEC: PJ RADCLIFFE
 
