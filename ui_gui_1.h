@@ -123,7 +123,6 @@ public:
     QLabel *label_13;
     QLabel *label_12;
     QLabel *label_14;
-    QLabel *label;
     QMenuBar *menubar;
     QMenu *menuFile;
     QStatusBar *statusbar;
@@ -567,14 +566,7 @@ public:
 
         tabWidget->addTab(tab_5, QString());
 
-        gridLayout_16->addWidget(tabWidget, 1, 0, 1, 3);
-
-        label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setMinimumSize(QSize(221, 31));
-        label->setMaximumSize(QSize(221, 31));
-
-        gridLayout_16->addWidget(label, 0, 1, 1, 1);
+        gridLayout_16->addWidget(tabWidget, 1, 0, 1, 2);
 
         gui_1Class->setCentralWidget(centralwidget);
         menubar = new QMenuBar(gui_1Class);
@@ -643,8 +635,6 @@ public:
         label_12->setText(QApplication::translate("gui_1Class", "1023", 0, QApplication::UnicodeUTF8));
         label_14->setText(QApplication::translate("gui_1Class", "Time", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tab_5), QApplication::translate("gui_1Class", "Pot Chart", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("gui_1Class", "Student Name: Hayden Warmington\n"
-"Student Number: S3486075", 0, QApplication::UnicodeUTF8));
         menuFile->setTitle(QApplication::translate("gui_1Class", "File", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
